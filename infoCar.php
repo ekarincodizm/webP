@@ -9,7 +9,7 @@
         <meta name="author" content="">
         <link rel="icon" href="pic/favicon.ico">
         
-        <title>หน้าแรก - ระบบบริหารอู่ซ่อมรถ - บริษัท เนตรวชิรกุล จำกัด</title>
+        <title>ข้อมูลรถ - ระบบบริหารอู่ซ่อมรถ - บริษัท เนตรวชิรกุล จำกัด</title>
         <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 
     <body>
 
-        <!-- Fixed navbar -->
+       <!-- Fixed navbar -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -42,7 +42,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> หน้าแรก </a></li>
+                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> หน้าแรก </a></li>
                         <li class="dropdown">
                             <a href="#A" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 <span class="glyphicon glyphicon-folder-open"></span> ข้อมูล 
@@ -50,7 +50,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="infoCustomer.php"><span class="glyphicon glyphicon-user"></span> ข้อมูลลูกค้า </a></li>
-                                <li><a href="infoCar.php"><span class="glyphicon glyphicon-inbox"></span> ข้อมูลรถ </a></li>
+                                <li  class="active"><a href="infoCar.php"><span class="glyphicon glyphicon-inbox"></span> ข้อมูลรถ </a></li>
                             </ul>
                         </li>
                         <li><a href="addCar.php"><span class="glyphicon glyphicon-pencil"></span> กรอกข้อมูล </a></li>
@@ -74,7 +74,7 @@
         
         
         <div class="container" style="margin-top: 50px ; text-align: center ">
-            <h1>รถที่อยู่ในระหว่างการดำเนินการซ่อม</h1>
+            <h1>ข้อมูลรถ</h1>
         </div>
         
         

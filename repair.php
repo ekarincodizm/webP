@@ -9,7 +9,7 @@
         <meta name="author" content="">
         <link rel="icon" href="pic/favicon.ico">
         
-        <title>หน้าแรก - ระบบบริหารอู่ซ่อมรถ - บริษัท เนตรวชิรกุล จำกัด</title>
+        <title>ซ่อม - ระบบบริหารอู่ซ่อมรถ - บริษัท เนตรวชิรกุล จำกัด</title>
         <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> หน้าแรก </a></li>
+                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> หน้าแรก </a></li>
                         <li class="dropdown">
                             <a href="#A" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 <span class="glyphicon glyphicon-folder-open"></span> ข้อมูล 
@@ -55,7 +55,7 @@
                         </li>
                         <li><a href="addCar.php"><span class="glyphicon glyphicon-pencil"></span> กรอกข้อมูล </a></li>
                         <li><a href="evaRepair.php"><span class="glyphicon glyphicon-list-alt"></span> ประเมินการซ่อม </a></li>
-                        <li><a href="repair.php"><span class="glyphicon glyphicon-wrench"></span> ซ่อม </a></li>
+                        <li class="active"><a href="repair.php"><span class="glyphicon glyphicon-wrench"></span> ซ่อม </a></li>
                         <li><a href="quaCheck.php"><span class="glyphicon glyphicon-check"></span> ตรวจสอบคุณภาพ </a></li>
                         <li><a href="sparePart.php"><span class="glyphicon glyphicon-cog"></span> อะไหล่ </a></li>
                         <li class="dropdown">
@@ -74,7 +74,7 @@
         
         
         <div class="container" style="margin-top: 50px ; text-align: center ">
-            <h1>รถที่อยู่ในระหว่างการดำเนินการซ่อม</h1>
+            <h1>ซ่อม</h1>
         </div>
         
         
