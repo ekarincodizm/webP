@@ -24,7 +24,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -37,27 +37,35 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a class="active" href="#">หน้าแรก</a></li>
-            <li><a href="#A">กรอกข้อมูล</a></li>
-            <li><a href="#B">ประเมินการซ่อม</a></li>
-            <li><a href="#C">ซ่อม</a></li>
-            <li><a href="#D">ตรวจสอบคุณภาพ</a></li>
-            <li><a href="#E">อะไหล่</a></li>
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> ข้อหน้าแรก</a></li>
             <li class="dropdown">
-              <a href="#F" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">พิมพ์รายงาน <span class="caret"></span></a>
+              <a href="#A" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-folder-open"></span> ข้อมูล <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#F1">ใบรับรถ</a></li>
-                <li><a href="#F2">ใบสั่งอะไหล่</a></li>
-                <li><a href="#F3">ใบสัญญา</a></li>
-                <li><a href="#F4">ใบเสร็จ</a></li>
+                  <li><a href="#A1"><span class="glyphicon glyphicon-user"></span> ข้อมูลลูกค้า </a></li>
+                <li><a href="#A2"><span class="glyphicon glyphicon-inbox"></span> ข้อมูลรถ </a></li>
+              </ul>
+            </li>
+            <li><a href="#B"><span class="glyphicon glyphicon-pencil"></span> กรอกข้อมูล </a></li>
+            <li><a href="#C"><span class="glyphicon glyphicon-list-alt"></span> ประเมินการซ่อม </a></li>
+            <li><a href="#D"><span class="glyphicon glyphicon-wrench"></span> ซ่อม </a></li>
+            <li><a href="#E"><span class="glyphicon glyphicon-check"></span> ตรวจสอบคุณภาพ </a></li>
+            <li><a href="#F"><span class="glyphicon glyphicon-cog"></span> อะไหล่ </a></li>
+            <li class="dropdown">
+              <a href="#G" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-print"></span> พิมพ์รายงาน <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#G1"><span class="glyphicon glyphicon-file"></span> ใบรับรถ </a></li>
+                <li><a href="#G2"><span class="glyphicon glyphicon-file"></span> ใบสั่งอะไหล่ </a></li>
+                <li><a href="#G3"><span class="glyphicon glyphicon-file"></span> ใบสัญญา </a></li>
+                <li><a href="#G4"><span class="glyphicon glyphicon-file"></span> ใบเสร็จ </a></li>
               </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
-
-    
+    <div class="container" style="margin-top: 50px ; text-align: center ">
+        <h1>รถที่อยู่ในระหว่างการดำเนินการซ่อม</h1>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
